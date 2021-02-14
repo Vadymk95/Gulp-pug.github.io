@@ -1,4 +1,4 @@
-# Bazar
+# Deluxe
 This site is the home project
 
 1. install dependencies
