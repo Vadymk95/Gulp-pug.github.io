@@ -14,3 +14,7 @@ command: npm run build
 3. for development
 
 command: npm run watch
+
+4. view project
+
+Right-click the index.html file you want to open, select Open.
