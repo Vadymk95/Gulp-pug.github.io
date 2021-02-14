@@ -1,0 +1,103 @@
+.reserve-form {
+	z-index: 0;
+	position: relative;
+	background-image: url("./../images/reserve-form/reserve-form.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	&__form {
+		max-width: 660px;
+		margin: 0 auto;
+	}
+
+	padding: 83px 0 85px;
+
+	&__title {
+		margin-bottom: 22px;
+		text-align: center;
+	}
+
+	&__wrap:not(:last-child) {
+		display: flex;
+		margin-bottom: 10px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__wrap:last-child {
+		display: flex;
+		align-items: center;
+	}
+
+	&__item {
+		position: relative;
+		border-radius: 2px;
+		padding: 19px 19px 19px 59px;
+		width: 100%;
+		border: 2px solid transparent;
+
+		&:hover {
+			border-radius: 2px;
+			border: 2px solid $color_gray;
+		}
+
+		.reserve-form__icon {
+			position: absolute;
+			top: 20px;
+			left: 19px;
+		}
+	}
+
+	&__item:not(:last-child) {
+		margin-right: 24px;
+	}
+
+	&__input {
+		border: none;
+	}
+
+	&__btn {
+		border: transparent;
+		padding: 17px 27px;
+		font-stretch: normal;
+		font-style: normal;
+		margin-right: 36px;
+	}
+
+	&__phone {
+		margin-top: -12px;
+		@include hover-link;
+	}
+
+	&__cube {
+		border: 2px solid $color_medium-dark;
+	}
+
+	&__cube:not(:last-child) {
+		position: absolute;
+		top: -50px;
+		left: 100px;
+		width: 251px;
+		height: 251px;
+		background-color: $color_medium-gray;
+	}
+
+	&__cube:not(:first-child) {
+		z-index: -1;
+		position: absolute;
+		bottom: -30px;
+		right: 150px;
+		width: 207px;
+		height: 207px;
+		background-color: $color_medium-gray;
+	}
+
+	&__disc {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-right: 27px;
+	}
+}

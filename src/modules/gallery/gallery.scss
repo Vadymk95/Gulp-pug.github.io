@@ -1,0 +1,55 @@
+.gallery {
+	background-color: #edf1f3;
+	padding: 97px 0 99px;
+overflow: hidden;
+	&__wrapper-slide {
+		display: flex;
+
+	}
+
+	&__slider {
+		max-width: 1970px;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: nowrap;
+		
+		& > .gallery__slide {
+			display: inline-block;
+			width: 471px;
+			height: 340px;
+		}
+	
+		& > .gallery__slide:first-child {
+			width: 370px;
+		}
+	
+		& > .gallery__slide:last-child {
+			width: 187px;
+		}
+	
+		& > .gallery__slide:nth-child(2n) {
+			background-color: $color-bg_light-gray;
+		}
+	}
+
+	&__title {
+		margin-bottom: 27px;
+		text-align: center;
+	}
+
+	&__radio {
+		width: 61px;
+		margin: 36px auto 0;
+	}
+
+	@include radio;
+
+	&__list-radio {
+		display: inline-block;
+		margin-left: 5px;
+		&:first-child {
+			margin-left: 0;
+			margin-bottom: 0;
+		}
+	}
+}
