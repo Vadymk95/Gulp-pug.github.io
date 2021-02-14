@@ -1,4 +1,4 @@
-# Bazar
+# Deluxe
 This site is the home project
 
 1. install dependencies
@@ -12,4 +12,9 @@ command: npm run build
 * you need to have installed gulp-cli on your PC(link: https://www.npmjs.com/package/gulp-cli)
 
 3. for development
+
 command: npm run watch
+
+4. view project
+
+Right-click the index.html file you want to open, select Open.
