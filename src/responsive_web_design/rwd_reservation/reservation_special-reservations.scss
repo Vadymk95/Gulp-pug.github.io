@@ -20,3 +20,26 @@
 		margin: 100px 0;
 	}
 }
+
+@media (max-width: 375px) {
+	.dinning-head {
+		margin-left: 0px;
+		text-align: center;
+	}
+	.dinning {
+		width: 100%;
+	}
+	.dinning-desc {
+		max-width: 295px;
+		margin-left: 10px;
+	}
+	.dinning-img img {
+		max-width: 100%;
+	}
+	.info ul {
+		padding: 58px 20px;
+	}
+	.private-dinner ul, .couple-dinner ul {
+		max-width: 320px;
+	}
+}
