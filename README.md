@@ -17,4 +17,4 @@ command: npm run watch
 
 4. view project
 
-Right-click the index.html file you want to open, select Open.
+https://vadymk95.github.io/project-gulp-home/reservation.html
