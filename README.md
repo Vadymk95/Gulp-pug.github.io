@@ -17,4 +17,4 @@ command: npm run watch
 
 4. view project
 
-https://vadymk95.github.io/project-gulp-home/reservation.html
+https://vadymk95.github.io/project-gulp-home/index.html
